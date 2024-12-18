@@ -1,38 +1,60 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8">0
 <title>Untitled Document</title>
 	<link href="tyles/dinhdang.css" type="text/css" rel="stylesheet"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 	<div class="khung">
 	<div class="banner">
 	<div class="anh1">
-		<img class="comi" src="images/comi.png" height="140px"/>
+		<img class="comi" src="images/5.webp" height="160px"/>
 	</div>
 	<div class="anh2">
 		<img class="shop" src="images/shop.png" height="70px"/>
 	</div>
 		<div class="chu">
 			<ul>
-			<li><a href="TRUYỆN TRANH">TRUYỆN TRANH</a></li>
-			<li><a href="TIỂU THUYẾT">TIỂU THUYẾT</a></li>
-			<li><a href="CỬA HÀNG XU">CỬA HÀNG XU</a></li>
-			<li><a href="ĐĂNG TRUYỆN">ĐĂNG TRUYỆN</a></li>
+			<li><a href="https://comi.mobi/truyen-tranh/">TRUYỆN TRANH</a></li>
+			<li><a href="https://comi.mobi/tieu-thuyet/">TIỂU THUYẾT</a></li>
+			<li><a	 href="https://comi.mobi/mua-xu/">CỬA HÀNG XU</a></li>
+			<li><a href="https://comi.mobi/huong-dan-tu-upload-truyen-tren-comi/">ĐĂNG TRUYỆN</a></li>
 			</ul>
 		</div>	
 		</div>
 		<div class="menu">
+			<div class="chu1">
 			<ul>
-				<li><a href="FAQ-HỎI&ĐÁP">FAQ-HỎI&ĐÁP</a></li>
-				<li><a href="LIÊN HỆ">LIÊN HỆ</a></li>
-			    <li><a href="GIỎ HÀNG">GIỎ HÀNG</a></li>
-				<li><a href="VỀ CHÚNG TÔI">VỀ CHÚNG TÔI</a></li>
+				<li><a href="https://comi.mobi/faq-hoi-dap/">FAQ-HỎI&ĐÁP</a></li>
+				<li><a href="https://comi.mobi/gio-hang/">LIÊN HỆ</a></li>
+			    <li><a href="https://comi.mobi/lien-he/">GIỎ HÀNG</a></li>
+				<li><a href="https://comi.mobi/ve-chung-toi/">VỀ CHÚNG TÔI</a></li>
 			</ul>
-		
+		</div>
 		</div>
 	</div>
+	<button id="chatbot-toggle-btn">HỖ TRỢ NGƯỜI DÙNG</button>
+    <div class="chatbot-popup" id="chatbot-popup">
+        <div class="chat-header">
+            <span> <a href="https://www.thecodinghubs.com/" target="_blank">KẾT NỐI</a></span>
+			<button id="close-btn">&times;</button>
+        </div>
+        <div class="chat-box" id="chat-box">
+			<div id="message-section">
+      <div class="message" id="bot"><span id="bot-response" >Xin chào, tôi có thể giúp gì cho bạn</span></div>
+    </div>
+		</div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Gửi tin nhắn...">
+            <button id="send-btn">gửi</button>
+        </div>
+        <div class="copyright">
+            <a  href="https://www.thecodinghubs.com/" target="_blank"></a>
+        </div>
+    </div>
+<script src="scripts/taitrang.js"></script>
 </body>
 </html>
