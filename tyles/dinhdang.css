@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: auto}
+.comi{
+	float: left;
+}
+.shop{
+	float: right;
+}
+.shop{
+padding-top: 40px;	
+}
+.shop{
+padding-right: 100px;	
+}
+
+.banner{
+	height: 160px;
+	background: #41855E;
+}
+.chu ul li{
+	list-style:none;
+	display: inline;
+	padding: inherit;
+}
+.chu{
+	padding-top: 70px;
+}
+.chu ul li a:hover{
+	color: yellow;
+}
+.chu ul li a{
+	text-decoration: none;
+	color:white;
+}
+.menu{
+	list-style:none;
+	display: inline;
+	padding: inherit;
+}
